@@ -1,0 +1,55 @@
+body, html{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  -webkit-font-smooting: antialiased;
+}
+
+.wrapper{
+  min-height: 100%;
+  min-width: 1200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.wrapper:after{
+  content: "";
+  display: block;
+  height: 115px;
+  overflow: hidden;
+}
+
+.maincontent{
+  //padding-bottom: 115px;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footer{
+  background: $black;
+  height: 115px;
+  width: 100%;
+  margin-top: -115px;
+  position: relative;
+  min-width: 1200px;
+}
