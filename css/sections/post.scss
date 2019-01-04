@@ -1,0 +1,65 @@
+.job_post{
+  height: 850px;
+  background: url("/img/bg__bottom.jpg");
+  padding-bottom: 0;
+}
+
+.job_post span{
+  color: rgba(#d7d7d7, 0.3);
+}
+
+.job_post h1{
+  color: $white;
+}
+
+.job_post ul li{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 5px;
+}
+
+.job_post ul li input{
+  width: 350px;
+  border: 1px solid $white;
+  height: 40px;
+  padding-left: 20px;
+  background: rgba(#fff, 0);
+  color: $white;
+  border-radius: 5px;
+}
+
+.mes{
+  margin-top: 40px;
+}
+
+.mes textarea{
+  width: 1120px;
+  height: 130px;
+  background: rgba(#fff, 0);
+  color: $white;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+
+.btn{
+  margin-top: 45px;
+}
+
+.btn button{
+  width: 225px;
+  height: 65px;
+  color: $white;
+  font-size: 20px;
+  background: $blue;
+  text-transform: uppercase;
+  border: none;
+  opacity: 0.5;
+  border-radius: 5px;
+
+  &:hover{
+    opacity: 1;
+    transition: 0.7s;
+
+  }
+}

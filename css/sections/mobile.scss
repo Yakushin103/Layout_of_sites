@@ -1,0 +1,56 @@
+.mobile {
+  min-height: 840px;
+  background: url("/img/bg__middle.jpg");
+}
+
+.mobile__container{
+  width: 1170px;
+  margin: 0 auto;
+  color: $white;
+}
+
+.mobile__left{
+  width: 50%;
+  float: left;
+  padding-top: 220px;
+}
+
+.mobile__contact{
+  width: 470px;
+  padding: 0 15px;
+}
+
+.mobile__contact h4{
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+.mobile__contact p{
+  font-size: 15px;
+  color: rgba($white, 0.7);
+}
+
+.mobile__tabl h4{
+  font-size: 18px;
+  height: 29px;
+  width: 350px;
+  background: $blue;
+  padding-top: 9px;
+  padding-left: 20px;
+  font-weight: normal;
+}
+
+.mobile__tabl_2 h4{
+  width: 380px;
+}
+
+.mobile__tabl_3 h4{
+  width: 400px;
+}
+
+.mobile__right{
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding-top: 90px;
+}

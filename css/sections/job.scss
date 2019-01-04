@@ -1,0 +1,66 @@
+.job{
+  width: 100%;
+  min-height: 740px;
+  background: $blue;
+//  position: relative;
+//  top: -200px;
+  margin-top: -200px;
+  text-align: center;
+}
+
+.job__container{
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.job__container span{
+  color: #3c8daf;
+  font-size: 250px;
+  font-weight: bold;
+}
+
+.job__container h1{
+  font-size: 35px;
+  text-transform: uppercase;
+  color: $white;
+  letter-spacing: 5px;
+  position: relative;
+  top: -200px;
+}
+
+.job__container ul li{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.job__links{
+  width: 270px;
+  text-align: center;
+  color: $white;
+  margin-right: 10px;
+}
+
+.job__link{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background: #3c8daf;
+  margin-left: 70px;
+}
+
+.job__link i{
+  font-size: 30px;
+  margin-top: 50px;
+  margin-left: 10px;
+  color: $white;
+}
+
+.job__links h3{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.job__links p{
+  font-size: 15px;
+}

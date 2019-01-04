@@ -1,0 +1,27 @@
+.blog__link_team img{
+  height: 415px;
+}
+
+.team__name{
+  height: 45px;
+  width: 215px;
+  //padding-top: 10px;
+  background: $white;
+  margin: 0 auto;
+  position: relative;
+  top: -75px;
+  color: $black;
+}
+
+.team__name h5{
+  color: $blue;
+  text-transform: uppercase;
+  font-size: 20px;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.team__name h6{
+  font-size: 15px;
+  margin: 0;
+}

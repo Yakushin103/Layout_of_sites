@@ -1,0 +1,23 @@
+.footer__container{
+  padding: 0 15px;
+  width: 1140px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.footer__left{
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+
+.footer__right{
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+.footer p{
+  color: $white;
+  font-size: 15px;
+}

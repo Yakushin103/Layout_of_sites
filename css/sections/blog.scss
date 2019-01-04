@@ -1,0 +1,39 @@
+.job_blog{
+  background: $white;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.job_blog span{
+  color: #d7d7d7;
+}
+
+.job_blog h1{
+  color: $black;
+}
+
+.job_blog h3{
+  position: relative;
+  top: -100px;
+  color: rgba($black, 0.7);
+}
+
+.blog__link{
+  width: 270px;
+  text-align: center;
+}
+
+.blog__link img{
+  width: 270px;
+  height: 280px;
+}
+
+.blog__link h4{
+  color: $blue;
+  text-transform: uppercase;
+}
+
+.blog__link p{
+  color: $black;
+  font-size: 15px;
+}

@@ -1,0 +1,37 @@
+.note{
+  min-height: 250px;
+  background: $blue;
+  padding-top: 100px;
+}
+
+.note__container{
+  width: 1070px;
+  margin: 0 auto;
+}
+
+.note__left{
+  width: 50%;
+  float: left;
+}
+
+.note__right{
+  width: 50%;
+  float: right;
+}
+
+.note__pic{
+  height: 80px;
+  width: 80px;
+  float: left;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.note__pic i{
+  color: $white;
+  font-size: 50px;
+}
+.note__text p{
+  color: $white;
+  font-size: 15px;
+}
